@@ -12,7 +12,7 @@ I am a college in Thang Long University. I am on my way to becoming a software d
  - City : Hanoi - Viet Nam
  - Birth : 11/2006
 
-## 💻 Technical Skills
+## 📂 About This Project
 <p align="center">
   <!-- Programming Languages -->
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
