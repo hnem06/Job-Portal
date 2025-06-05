@@ -1,5 +1,5 @@
 <h1 align="center">Hi, This is my first big-project. </h1>
-<h3 align="center"> I wanna to become a Software Developer</h3>
+<h3 align="center"> I created this website to help college students (or high school students) who are looking for a job find a part-time job to earn some extra income.</h3>
 
 <p align="center">
   <a href="https://github.com/hnem06">
