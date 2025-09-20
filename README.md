@@ -1,8 +1,8 @@
 <h1 align="center">JobPortal</h1>
 
 ### Demo Screenshots
-![Page 1](https://raw.githubusercontent.com/hnem06/Job-Portal/main/image.png)
-![Page 2](https://raw.githubusercontent.com/hnem06/Job-Portal/main/sql.png)
+![Page 1](https://raw.githubusercontent.com/hnem06/Job-Portal/main/assets/image.png)
+![Page 2](https://github.com/hnem06/Job-Portal/blob/main/assets/sql.png)
 
 
 ## 📖 Introduce
