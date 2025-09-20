@@ -1,6 +1,7 @@
 <h1 align="center">JobPortal</h1>
 
-<h4 align="center"> JobPortal is a website or online platform that helps job seekers and employers connect with each other.</h4>
+## 📖 Giới thiệu
+JobPortal is a website or online platform that helps job seekers and employers connect with each other.
 
 <p align="center">
   <a href="https://github.com/hnem06">
