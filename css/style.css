@@ -1,0 +1,154 @@
+/* General Body and Container Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5; /* Light grey background for the page */
+    margin: 0;
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng/cao */
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px; /* Tăng max-width để có đủ không gian cho 'Vai trò :' */
+    text-align: center;
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng/cao */
+}
+
+.form-title {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Input Group Styles */
+.input-group {
+    display: flex; /* Quan trọng: Sử dụng Flexbox để các phần tử con nằm trên một hàng */
+    align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc ở giữa */
+    background-color: #f2f2f2; /* Light grey background */
+    border-radius: 25px; /* Rounded corners */
+    margin-bottom: 15px;
+    padding: 10px 15px; /* Padding tạo không gian xung quanh nội dung bên trong */
+    position: relative; /* Cần thiết cho việc định vị mũi tên của select */
+    overflow: hidden; /* Đảm bảo không có nội dung tràn ra ngoài khung bo tròn */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng/cao */
+}
+
+.input-icon {
+    color: #888; /* Icon color */
+    font-size: 18px;
+    margin-right: 10px; /* Khoảng cách giữa icon và trường nhập/chọn */
+    flex-shrink: 0; /* Ngăn icon bị co lại nếu không gian hạn chế */
+}
+
+.input-field {
+    flex-grow: 1; /* Quan trọng: Cho phép input chiếm hết không gian còn lại */
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    padding: 0; /* Reset padding để nó không bị thừa với padding của .input-group */
+    line-height: 1.5; /* Đảm bảo text căn chỉnh tốt theo chiều dọc */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng/cao */
+}
+
+.input-field::placeholder {
+    color: #aaa;
+}
+
+/* Specific Styles for the Select Element */
+.select-group .role-label {
+    color: #333; /* Màu chữ cho nhãn 'Vai trò :' */
+    font-size: 16px; /* Kích thước chữ cho nhãn */
+    margin-right: 10px; /* Khoảng cách giữa nhãn và icon */
+    white-space: nowrap; /* Ngăn không cho nhãn xuống dòng */
+    flex-shrink: 0; /* Ngăn nhãn bị co lại nếu không gian hạn chế */
+    /* Có thể cần điều chỉnh line-height nếu text bị lệch */
+    line-height: 1.5; /* Để căn giữa với icon và select */
+}
+
+.styled-select {
+    flex-grow: 1; /* Quan trọng: Cho phép select chiếm hết không gian còn lại */
+    border: none;
+    background: transparent; /* Giữ background trong suốt để hiển thị background của .input-group */
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    line-height: 1.5; /* Đảm bảo chiều cao dòng phù hợp với input fields */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng/cao */
+
+    /* Remove default dropdown arrow */
+    -webkit-appearance: none; /* For Chrome, Safari */
+    -moz-appearance: none;    /* For Firefox */
+    appearance: none;         /* Standard */
+
+    /* Add padding to the right to make space for custom arrow */
+    padding: 0; /* Reset padding để nó không bị thừa với padding của .input-group */
+    padding-right: 30px; /* Tạo không gian cho mũi tên tùy chỉnh */
+    min-width: 0; /* Cho phép select co lại nhỏ hơn kích thước nội tại nếu cần */
+}
+
+/* Style for the custom dropdown arrow */
+.select-group::after {
+    content: '\f0d7'; /* Font Awesome 5 caret-down icon unicode */
+    font-family: "Font Awesome 5 Free"; /* Specify Font Awesome font */
+    font-weight: 900; /* Use the solid style for consistency if using Font Awesome */
+    position: absolute;
+    right: 15px; /* Căn chỉnh với mép phải của .input-group */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* Màu của mũi tên */
+    font-size: 16px;
+    pointer-events: none; /* Quan trọng: Cho phép click xuyên qua mũi tên đến select */
+}
+
+
+/* Button Styles */
+.form-button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #a0c4ff, #8ab6fa); /* Blue gradient */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    transition: background 0.3s ease;
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng/cao */
+}
+
+.form-button:hover {
+    background: linear-gradient(to right, #8ab6fa, #a0c4ff);
+}
+
+/* Form Footer Styles */
+.form-footer {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.form-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
