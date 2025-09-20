@@ -1,18 +1,12 @@
 <h1 align="center">JobPortal</h1>
 
-## 📖 Giới thiệu
+## 📖 Introduce
 JobPortal is a website or online platform that helps job seekers and employers connect with each other.
 
-<p align="center">
-  <a href="https://github.com/hnem06">
-    <img src="https://komarev.com/ghpvc/?username=hnem06&label=Profile%20views&color=0e75b6&style=flat" alt="hnem06" />
-  </a>
-</p>
-
-## 🙋🏻‍♂️ About Me
-I am a college in Thang Long University. I am on my way to becoming a software developer. 
- - City : Hanoi - Viet Nam
- - Birth : 11/2006
+## ✨ Features
+[+] Register / Login / Role management (Job Seeker, Employer, Admin)
+[+] Create, edit, confirm job postings.
+[+] Manage user accounts from the Admin panel.
 
 ## 📂 About This Project
 <p align="center">
