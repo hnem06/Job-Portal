@@ -1,6 +1,6 @@
 <h1 align="center">JobPortal</h1>
 
-<h4 align="center"> I created this project to help college students (or high school students) who are looking for a job find a part-time job to earn some extra income.</h4>
+<h4 align="center"> JobPortal is a website or online platform that helps job seekers and employers connect with each other.</h4>
 
 <p align="center">
   <a href="https://github.com/hnem06">
