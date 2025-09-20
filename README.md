@@ -27,7 +27,7 @@ JobPortal is a website or online platform that helps job seekers and employers c
   |- home.php      # Main Page
   |- index.php     # Redirect Page
   |- login.php     # Login Page
-
+```
 
 ## 📌 Credits
 - [AdminLTE](https://adminlte.io/) - Dashboard template (MIT License).  
