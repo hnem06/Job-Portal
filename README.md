@@ -1,6 +1,7 @@
 <h1 align="center">JobPortal</h1>
-![Demo Screenshot](https://raw.githubusercontent.com/hnem06/Job-Portal/refs/heads/main/image.png)
 
+### Demo Screenshots
+![Page 1](https://raw.githubusercontent.com/hnem06/Job-Portal/main/image1.png)
 
 ## 📖 Introduce
 JobPortal is a website or online platform that helps job seekers and employers connect with each other.
