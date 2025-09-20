@@ -17,15 +17,15 @@ JobPortal is a website or online platform that helps job seekers and employers c
 
 ## 📂 Structure
 /JobPortal
-  |- assets           # Saves all images of system resources used for initialization
-  |- css              # CSS
-  |- db               # Config Database
-  |- js               # Javascript
-  |- libs             # Main library include files (header, footer, config, UI)...    
-  |- uploads          # Images, File uploaded by users.
-  |- home.php         # Main Page
-  |- index.php        # Redirect Page
-  |- login.php        # Login Page
+  |- assets/           # Saves all images of system resources used for initialization
+  |- css/              # CSS
+  |- db/               # Config Database
+  |- js/               # Javascript
+  |- libs/             # Main library include files (header, footer, config, UI)...    
+  |- uploads/          # Images, File uploaded by users.
+  |- home.php          # Main Page
+  |- index.php         # Redirect Page
+  |- login.php         # Login Page
 
 ## 📌 Credits
 - [AdminLTE](https://adminlte.io/) - Dashboard template (MIT License).  
