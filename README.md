@@ -28,13 +28,11 @@ JobPortal is a website or online platform that helps job seekers and employers c
   |- login.php        # Login Page
 
 ## 📌 Credits
-AdminLTE - Dashboard template (MIT License).
-Bootstrap - CSS framework (MIT License).
-ApexCharts - Charts library (MIT License).
+- [AdminLTE](https://adminlte.io/) - Dashboard template (MIT License).  
+- [Bootstrap](https://getbootstrap.com/) - CSS framework (MIT License).  
+- [ApexCharts](https://apexcharts.com/) - Charts library (MIT License).  
 
 ## 📫 Get In Touch
-
 If you'd like to collaborate or just have a chat about technology and innovation, feel free to reach out:
-
 - **Email:** [iamhn2006@gmail.com](mailto:iamhn2006@gmail.com)
 - **Facebook:** [hnem.06](https://facebook.com/hnem.06)
