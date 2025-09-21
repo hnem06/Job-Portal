@@ -9,9 +9,9 @@
 JobPortal is a website or online platform that helps job seekers and employers connect with each other.
 
 ## ✨ Features
-[+] Register / Login / Role management (Job Seeker, Employer, Admin)
-[+] Create, edit, confirm job postings.
-[+] Manage user accounts from the Admin panel.
+[+] Register / Login / Role management (Job Seeker, Employer, Admin)<br>
+[+] Create, edit, confirm job postings.<br>
+[+] Manage user accounts from the Admin panel.<br>
 
 ## 🏗️ Architecture / Technologies Used
 - **Frontend**: HTML, CSS, JS (Bootstrap, AdminLTE).
